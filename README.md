@@ -6,5 +6,6 @@ We design and implement several classes to model this ride service on the road n
 - Efficiency of locating drivers and passengers in relation to the road network (i.e. assigning drivers and passengers to nearest nodes/possible pickup locations)
 - Finding the nearest driver to a given passenger
 - Finding the shortest path between two points on the network (for pickups and dropoffs)
+
 We find that there exists a tradeoff between accuracy of simulation and runtime efficiency. However, with the proper space partitioning and graph traversal methods, we can maintain a reasonably scalable simulation with a high degree of accuracy.
 
